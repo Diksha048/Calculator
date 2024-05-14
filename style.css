@@ -1,0 +1,9 @@
+.calculator-body {
+    height: 300px;
+    width: 250px;
+    background-color: #3d3d5c;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 40px;
+  }
