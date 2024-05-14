@@ -7,3 +7,42 @@
     padding: 20px;
     padding-top: 40px;
   }
+  .screen {
+    background-color: #a1af77;
+    text-align: right;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+  .buttons-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn {
+    width: 50px;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 20px;
+    margin: 3px;
+    border: 0.5px solid #0a0a0f;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    box-shadow: 0 0 5px 0 #efeff5;
+    transition: 0.5s;
+  }
+
+  .btn-equals {
+    background-color: #ff6666;
+    height: 70px;
+    color: #efeff5;
+  }
